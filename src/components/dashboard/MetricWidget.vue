@@ -322,6 +322,6 @@ export default {
     margin: 4px 2px 2px 2px;
 }
 .subdued {
-    color: #9b9b9b;
+    color: #747474;
 }
 </style>

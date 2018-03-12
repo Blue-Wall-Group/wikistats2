@@ -32,6 +32,6 @@ export default {
 </script>
 
 <style scoped>
-a, a:visited { color: #888; }
+a, a:visited { color: #A6A6A6; }
 .ui.centered { font-size: 1.1em; }
 </style>

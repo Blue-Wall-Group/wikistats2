@@ -139,7 +139,7 @@ a.router-link-current { font-weight: bold; color: #72777d }
 }
 .ui.attached.footer.segment {
     background-color: #3B3B3B;
-    color: #AAAAAA;
+    color: #C9C9C9;
     border: none;
 }
 
