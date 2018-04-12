@@ -18,7 +18,8 @@
 
         <div class="ui search">
             <div class="ui icon input">
-                <input class="prompt" type="text" v-model="searchDisplay"
+				<label for="topicSearch">Search for a Question</label>
+                <input id="topicSearch" class="prompt" type="text" v-model="searchDisplay"
                     placeholder="Search or Browse questions and pick one to see answers"
                     @blur="onBlur"
                     @keyup.enter="select"
@@ -222,5 +223,10 @@ export default {
     .topic.searcher .ui.search {
         width: 97%;
     }
+}
+
+label[ for='topicSearch' ]
+{
+	display: none;
 }
 </style>
