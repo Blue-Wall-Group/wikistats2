@@ -2,7 +2,8 @@
 <div>
     <div class="ui search">
         <div class="ui icon input">
-            <input class="prompt" type="text" v-model="inputText"
+			<label for="wikiSearch">Search for a Wiki</label>
+            <input id="wikiSearch" class="prompt" type="text" v-model="inputText"
                 ref="inputBox"
                 :placeholder="placeholder"
                 @click="open"
@@ -343,5 +344,10 @@ export default {
         width: 91vw!important;
         margin-left: 1em;
     }
+}
+
+label[ for='wikiSearch' ]
+{
+	display: none;
 }
 </style>
